@@ -20,7 +20,7 @@ $args = array(
     'order'          => 'DESC',
     'meta_query'     => array(
         'relation' => 'AND',
-        array(
+        array( 
             'key' => '_event_start_date',
             'value' => date("Y-m-d"),
             'compare' => '<',
